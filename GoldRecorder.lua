@@ -15,10 +15,6 @@ frame:SetScript("OnEvent",function(self,event,...)
     end
 end)
 
-function findCharacter(realmName, faction, characterName)
-  return GoldRecorderDB["@" .. realmName .. "-" .. faction .. "::" .. characterName] ~= nil
-end
-
 function updateTable(realmName, faction, characterName, money)
   GoldRecorderDB["@" .. realmName .. "-" .. faction .. "::" .. characterName] = money
 end
