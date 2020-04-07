@@ -1,0 +1,8 @@
+## Interface: 80300
+## Title: Gold Recorder
+## Version: 0.0.1
+## Notes: |cff00ff00Records gold amounts for use outside of game.
+## Author: DrkGreyHawk
+## SavedVariables: GoldRecorderDB
+
+GoldRecorder.lua
